@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMaster.master.cs" Inherits="BookARoom.Shared.SiteMaster" ViewStateMode="Disabled" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Mötesrum | Ecommerce Park</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../Content/SiteStyles.css" rel="stylesheet" />
+    <link href="../Content/SmallStyle.css" media='screen and (max-width: 736px)' rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="Container"
+
+            <%--HEADER--%>
+            <%--<h1>Mötesrum</h1--%>>
+            <a href="http://ecommercepark.se"><asp:Image ID="LogoImage" runat="server" ImageUrl="../Content/Images/Logga%20Ecom.jpg" /></a>
+
+            <%--MENY--%>
+            <div id="Menu">
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl='<%$ RouteUrl:routename=Default %>' Text='Mötesrum' />
+                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl='<%$ RouteUrl:routename=CustomerListing %>' Text='Admin' />
+            </div>
+
+            <%--AVDELARE--%>
+            <div class="HeaderLine"></div>
+
+            <%--PLATS FÖR UNIKT SIDINNEHÅLL--%>
+            <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+
+            <%--AVDELARE OCH SIDFOT--%>
+            <div class="FooterLine"></div>
+            <asp:Label ID="FooterLabel" runat="server" Text="2015 Waldemarson för Ecommerce Park of Sweden" />
+        </div>
+    </form>
+</body>
+</html>

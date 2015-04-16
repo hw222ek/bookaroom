@@ -1,0 +1,387 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Roboto:700,400,300italic);
+
+body {
+}
+
+/*MAIN*/
+
+#Container {
+    width: 800px;
+    margin: auto;
+}
+
+p, table, span, input, select, a {
+    font-family: Arial;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, a {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    color: #2980B9;
+    display:inline-block;
+}
+
+h3 {
+    color: #6F645E;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 32px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+#LogoImage {
+    margin-left: 0;
+    margin-bottom: 38px;
+    display:inline-block;
+    max-height: 60px;
+}
+
+.HeaderLine {
+    width: 800px;
+    height: 10px;
+    background-color: #C7C7C7;
+    top: 0px;
+    margin-bottom: 15px;
+}
+
+.FooterLine {
+    width: 100%;
+    height: 10px;
+    background-color: #C7C7C7;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+#FooterLabel {
+    color: #979393;
+    font-size: 0.75em;
+    float: left;
+}
+
+submit {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+.right {
+    float: right;
+}
+
+/*BOOKINGS*/
+
+.ImageLink {
+    width: 280px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.RightWing {
+    margin-top: 95px;
+    width: 280px;
+    display: inline-block;
+    float: right;
+}
+
+.LeftWing {
+    min-width: 500px;
+    display: inline-block;
+    float: left;
+}
+
+.RoomPresenter {
+    width: 340px;
+    background-color: #85C3AE;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.bdplite input {
+    width: 70px;
+    border: none;
+    font-size: 0.8em;
+    margin-top: 5px;
+    margin-right: 50px;
+    float: right;
+    background-color: yellow;
+}
+
+.CalendarText {
+    margin-left: -30px;
+    font-size: 0.8em;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.DateContainer {
+    display: inline-block;
+    width: 160px;
+    border: 3px solid #C7C7C7;
+    padding: 0 0 25px 50px;
+    margin: 0 auto 15px auto;
+}
+
+.RoomLinksContainer {
+    display: inline-block;
+    width: 160px;
+    border: 3px solid #C7C7C7;
+    padding: 0 0 25px 50px;
+    margin: 0 auto auto auto;
+}
+
+.BookingContainer {
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    padding: 1px 0 0 10px;
+}
+
+.HeaderStyled {
+    font-size: 2.5em;
+}
+
+.DateHeader {
+    font-size: 1.2em;
+}
+
+.Yepp {
+    background-color: #F1904C;
+}
+
+.Customer0 {
+    background-color: #ABC65D;
+}
+
+.Customer0, .Yepp {
+    width: 28px;
+    height: 28px;
+    margin: 6px 10px 5px 6px;
+
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+}
+
+.InlineBlock, .Yepp {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.InlineNames {
+    display: inline-block;
+    width: 170px;
+}
+
+.InlineNames input {
+    width: 90%;
+}
+
+/*BOOKINGDETAILS*/
+
+.HeaderLabel {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+/*MENU*/
+
+#Menu {
+    position: relative;
+    margin: -58px 0 0 630px;
+}
+
+#Menu a {
+    font-family: 'Roboto', sans-serif;
+    color: #9A558E;
+    text-decoration: none;
+    margin-left: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#Menu a:hover {
+    color: #F7B65C;
+}
+
+/*CUSTOMERLISTING*/
+
+.Type1 {
+    background-color: #3af3a3;
+    padding: 4px 11px;
+    margin: 0 15px 0 0;
+    border: 1px solid #C7C7C7;
+}
+
+.Type2 {
+    background-color: #ffd800;
+    padding: 4px 9px;
+    margin: 0 15px 0 0;
+    border: 1px solid #C7C7C7;
+}
+
+.TypeEdit {
+    margin: 0 15px 0 0;
+}
+
+.InsertCustomer {
+    float:right;
+    width: 265px;
+    border: 3px solid #C7C7C7;
+    padding: 25px 0 25px 25px;
+    margin: auto;
+}
+
+.CTypeTd {
+    padding-bottom: 10px;
+}
+
+.NewHeader {
+    margin-top:0;
+}
+
+.SpaceTd {
+    width: 12px;
+}
+
+/*CUSTOMERDETAILS*/
+
+.TypeDetail1, .TypeDetail2 {
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+    
+    padding-top: 5px;
+    text-align:center;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+}
+
+.TypeDetail1 {
+    background-color: #3af3a3;
+}
+
+.TypeDetail2 {
+    background-color: #ffd800;
+}
+
+/*VALIDATION OCH MEDDELANDEN*/
+
+.ValError {
+    color: #cc0909;
+}
+
+.MessageDiv {
+    width: 400px;
+    background-color: #6F645E;
+    color: #ffffff;
+    text-align:center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+}
+
+.MessageButton {
+    background-color: #E95843;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    float: right;
+    margin-top: -8px;
+    margin-right: 8px;
+
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.ValidationSummary {
+    width: 410px;
+    background-color: #E74C3C;
+    color: #ffffff;
+    text-align:center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 15px;
+
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.MoveRight {
+    float:right;
+}
+
+/*BUTTONS (stolen and slightly modified design from codepen.io)*/
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	padding: 4px 9px;
+    margin: 0px 10px 10px 0px;
+	border-radius: 10px;
+    font-size: 14px;
+	color: #FFF;
+	text-decoration: none;	
+}
+
+.blue
+{
+	background-color: #62A3C9;
+	border-bottom: 5px solid #487a97;
+}
+
+.red
+{
+	background-color: #EA5B4A;
+	border-bottom: 5px solid #bb4d3f;
+}
+
+.green
+{
+	background-color: #ABC65D;
+	border-bottom: 5px solid #8ba04e;
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+
+.BeautyDrop {
+    background: transparent;
+    padding: 3px;
+
+    -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
